@@ -27,19 +27,15 @@ This project demonstrates modern backend development practices including authent
 
 ---
 
-## 📂 Project Structure
-
-blog-fast-api/
-│── app/
-│ ├── main.py # Entry point
-│ ├── models/ # SQLAlchemy models
-│ ├── schemas/ # Pydantic schemas
-│ ├── crud/ # CRUD operations
-│ ├── api/ # API routers
-│ ├── core/ # Security, config, etc.
-│ └── db/ # Database session & base
-│
-│── tests/ # Test cases
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
+2️⃣ Create & activate a virtual environment
+```
+python -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+.venv\Scripts\activate     # Windows
+```
+3️⃣ Install dependencies
+```
+pip install -r requirements.txt
+```
+4️⃣ Run the development server
 
