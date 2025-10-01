@@ -1,6 +1,6 @@
 # Blog FastAPI
 
-A simple yet powerful blog application built with **FastAPI**, **SQLAlchemy**, and **Pydantic**.  
+A powerful blog application built with **FastAPI**, **SQLAlchemy**, and **Pydantic**.  
 This project demonstrates modern backend development practices including authentication, CRUD operations, and database management.
 
 ---
